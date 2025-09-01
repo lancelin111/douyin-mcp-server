@@ -1,0 +1,30 @@
+{
+  "name": "douyin-mcp-server",
+  "version": "2.0.0",
+  "description": "Douyin MCP Server for automated video uploads",
+  "type": "module",
+  "main": "mcp-server/dist/index.js",
+  "scripts": {
+    "build": "cd mcp-server && npm run build",
+    "start": "cd mcp-server && npm start",
+    "test": "node examples/simple-upload.js",
+    "dev": "cd mcp-server && npm run dev"
+  },
+  "keywords": [
+    "douyin",
+    "tiktok",
+    "mcp",
+    "model-context-protocol",
+    "video-upload",
+    "automation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^23.11.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.6",
+    "typescript": "^5.7.3"
+  }
+}
